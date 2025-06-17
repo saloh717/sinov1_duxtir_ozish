@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/success/girl-strike.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right center;
+}
+
+.success {
+    padding-top: 285px;
+    padding-bottom: 285px;
+}
+
+.success-container {
+    max-width: 1232px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.success-title {
+    font-family: "SF pro bold", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    max-width: 713px;
+    margin-bottom: 12px;
+    max-width: 713px;
+}
+
+.success-text {
+    font-family: 'SF pro regular', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2A2A2A;
+    margin-bottom: 56px;
+    max-width: 713px;
+}
+
+.success-span-blue {
+    color: #2B43D5;
+}
+
+.success-follow {
+    padding: 24px 78px;
+    background-color: #FF2D55;
+    border-radius: 76px;
+    font-family: 'SF pro bold', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-bottom: 24px;
+    outline: none;
+    border-style: none;
+}
+
+.success-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 20px;
+    border: 1px solid #D8D8D9;
+    max-width: 470px;
+    border-radius: 16px;
+}
+
+.success-box div {
+    display: flex;
+}
+
+.success-box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.success-span {
+    font-family: 'SF pro bold';
+    font-weight: 700px;
+}
+.girl-strike-img{
+    display: none;
+}
+@media (max-width:1300px) {
+    body{
+        background-image: none;
+    }
+    .success{
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    .girl-strike-img{
+        display: flex;
+        max-width: 380px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+        margin-bottom: -14px;
+    }
+    .success-follow{
+        display: block;
+        padding: 24px 114.5px;
+        max-width: 411px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .success-box{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .success-text{
+        text-align: center;
+        max-width: 570px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .success-title{
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .success-text br {
+        display: none
+    }
+}
+@media (max-width:490px) {
+    .success-title{
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .success-text{
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .girl-strike-img{
+        max-width: 300px;
+        margin-bottom: -12px;
+    }
+    .success-follow{
+        padding: 20px 50px;
+        width: 100%;
+        font-size: 18px;
+        max-width: 320px;
+    }
+    .success-box-text{
+        font-size: 14px;
+        line-height: 1.2;
+        max-width: none;
+    }
+}
